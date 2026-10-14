@@ -181,28 +181,6 @@ a:focus-visible {
   border-radius: 4px;
 }
 
-/* Черновик соглашения: плашка и пометки для юриста. */
-.draft {
-  margin: 16px 0;
-  padding: 12px 16px;
-  background: var(--inset);
-  border: 2px solid var(--ink);
-  border-radius: 14px;
-  font-weight: 800;
-}
-
-.todo {
-  font-weight: 800;
-  background: var(--inset);
-  border-radius: 6px;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-
-span.todo { padding: 0 0.2em; }
-
-p.todo { padding: 8px 12px; }
-
 /* Главная: штамп, имя, строка о приложении и ссылки строками в том же листе. */
 .cover {
   margin-top: 24px;
