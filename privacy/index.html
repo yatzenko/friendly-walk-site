@@ -17,7 +17,7 @@
 
 <section id="ru" class="paper">
 <h1>Политика конфиденциальности приложения Friendly Walk</h1>
-<p class="quiet">Редакция от 10 октября 2026 года</p>
+<p class="quiet">Редакция от 14 октября 2026 года</p>
 
 <h2>Главное</h2>
 <ul>
@@ -135,18 +135,19 @@
   <li>Ваш вклад в поход по дням — бессрочно, пока существует ваш аккаунт, в том числе после закрытия похода.</li>
   <li>Время последнего открытия Приложения — пока вы состоите в отряде.</li>
   <li>Шаги по отдельным устройствам и источникам — 90 суток, затем остаётся только итог суток.</li>
-  <li>Служебные записи о попытках ввести код и о проверках устройства — записи старше суток удаляются при следующей попытке или проверке.</li>
+  <li>Служебные записи о попытках ввести код, о проверках устройства и о выгрузках данных — записи старше суток удаляются при следующей попытке, проверке или выгрузке.</li>
+  <li>Копия файла выгрузки данных на Сервере — сутки с момента формирования, затем удаляется в течение часа: повторная выгрузка в эти сутки отдаёт тот же файл, с ограничением числа выгрузок.</li>
   <li>Технические журналы запросов и журналы службы входа у хостинг-провайдера (Supabase) — до 1 суток на нашем тарифе; при смене тарифа срок может измениться, и мы обновим политику.</li>
   <li>Отчёты о сбоях и диагностика в Play Console — в течение срока, который устанавливает Google.</li>
-  <li>Резервные копии базы данных — до 8 недель. Удалённые данные остаются в копиях, пока копия не будет удалена по истечении этого срока.</li>
-  <li>На устройстве данные хранятся, пока установлено Приложение. Выход из аккаунта удаляет с устройства сохранённые списки и рост, удаление аккаунта — все данные Приложения на этом устройстве. Поминутные шаги датчика удаляются, как правило, через 9 суток.</li>
+  <li>Резервные копии базы данных, в том числе файлы выгрузки, — до 8 недель. Удалённые данные остаются в копиях, пока копия не будет удалена по истечении этого срока.</li>
+  <li>На устройстве данные хранятся, пока установлено Приложение. Выход из аккаунта удаляет с устройства сохранённые списки и рост, удаление аккаунта — все данные Приложения на этом устройстве. Поминутные шаги датчика удаляются, как правило, через 9 суток. Файл последней выгрузки данных (раздел 11) хранится до следующей выгрузки, выхода или удаления аккаунта.</li>
   <li>Переписка по запросам (раздел 11) — удаляется после исполнения запроса.</li>
 </ul>
 
 <h2>11. Ваши права</h2>
 <p>11.1. Вы вправе:</p>
 <ul>
-  <li>получить сведения о том, какие ваши данные мы обрабатываем, и их копию;</li>
+  <li>получить сведения о том, какие ваши данные мы обрабатываем, и их копию: файл со всеми данными, которые хранит Сервер, — в Приложении (Профиль → Настройки → «Выгрузить мои данные»), с ограничением числа выгрузок в сутки; в файл не входят служебные записи о попытках ввести код, проверках устройства и выгрузках, журналы платформы и данные, которые хранятся только на устройстве; их и прочие сведения — по запросу (11.2);</li>
   <li>исправить данные: ник — в паспорте в Приложении, прочее — по запросу;</li>
   <li>удалить аккаунт и данные (раздел 12);</li>
   <li>отозвать согласие на чтение Health Connect и датчика шагов — в настройках Health Connect и Android;</li>
@@ -156,7 +157,7 @@
 <p>11.2. Запрос направляйте по адресу из раздела 15 с адреса Google-аккаунта, которым вы входили в Приложение. Мы пришлём отдельное письмо на этот адрес; ответьте на него, чтобы подтвердить, что ящик принадлежит вам. После подтверждения мы ответим в течение 30 дней. Без подтверждения из ящика аккаунта мы данные не раскрываем и не изменяем.</p>
 
 <h2>12. Удаление аккаунта</h2>
-<p>Аккаунт и данные удаляются в Приложении (Профиль → Настройки → «Удалить аккаунт и данные») или по запросу на электронную почту. Что удаляется сразу, что сохраняется в обезличенном виде (например, ваши шаги в идущем походе остаются у отряда одной суммой без вашего имени) и как удалить аккаунт без Приложения, описано на странице <a href="../delete-account/">удаления аккаунта</a>. В резервных копиях удалённые данные хранятся до 8 недель (раздел 10).</p>
+<p>Аккаунт и данные удаляются в Приложении (Профиль → Настройки → «Удалить аккаунт и данные») или по запросу на электронную почту. Что удаляется сразу, что сохраняется в обезличенном виде (например, ваши шаги в идущем походе остаются у отряда одной суммой без вашего имени) и как удалить аккаунт без Приложения, описано на странице <a href="../delete-account/">удаления аккаунта</a>. В резервных копиях удалённые данные хранятся до 8 недель (раздел 10). Ваш ник может оставаться в копии файла выгрузки данных другого игрока на Сервере, сформированной до удаления, — до суток с часом (раздел 10). Файл, уже полученный этим игроком, хранится у него.</p>
 
 <h2>13. Защита данных</h2>
 <ul>
@@ -180,7 +181,7 @@
 
 <section id="en" lang="en" class="paper">
 <h1>Friendly Walk privacy policy</h1>
-<p class="quiet">Version of 10 October 2026</p>
+<p class="quiet">Version of 14 October 2026</p>
 
 <h2>Key points</h2>
 <ul>
@@ -298,18 +299,19 @@
   <li>Your daily contribution to a hike — indefinitely, as long as your account exists, including after the hike closes.</li>
   <li>When you last opened the App — while you are in a party.</li>
   <li>Steps by individual device and source — 90 days, after which only the daily total remains.</li>
-  <li>Service records of code attempts and device checks — records older than a day are deleted at the next attempt or check.</li>
+  <li>Service records of code attempts, device checks and data exports — records older than a day are deleted at the next attempt, check or export.</li>
+  <li>A copy of your data export file on the Server — for a day after it is made, then deleted within an hour: exporting again within that day returns the same file, with a limit on the number of exports.</li>
   <li>Technical request logs and sign-in service logs at our hosting provider (Supabase) — up to 1 day on our plan; if the plan changes, this period may change and we will update this policy.</li>
   <li>Crash reports and diagnostics in Play Console — for the period set by Google.</li>
-  <li>Database backups — up to 8 weeks. Deleted data remains in backups until the backup itself is deleted at the end of that period.</li>
-  <li>On the device, data is kept while the App is installed. Signing out deletes saved lists and height from the device; deleting the account deletes all App data on that device. Per-minute sensor steps are usually deleted after 9 days.</li>
+  <li>Database backups, including data export files, — up to 8 weeks. Deleted data remains in backups until the backup itself is deleted at the end of that period.</li>
+  <li>On the device, data is kept while the App is installed. Signing out deletes saved lists and height from the device; deleting the account deletes all App data on that device. Per-minute sensor steps are usually deleted after 9 days. The file of your last data export (section 11) is kept until the next export, sign-out or account deletion.</li>
   <li>Correspondence about requests (section 11) — deleted once the request is fulfilled.</li>
 </ul>
 
 <h2>11. Your rights</h2>
 <p>11.1. You have the right to:</p>
 <ul>
-  <li>know what data of yours we process and get a copy of it;</li>
+  <li>know what data of yours we process and get a copy of it: a file with all data the Server keeps — in the App (Profile → Settings → “Export my data”), with a limit on exports per day; the file does not include service records of code attempts, device checks and exports, platform logs or data kept only on the device; these and any other information — on request (11.2);</li>
   <li>correct your data: your nickname — in your passport in the App, anything else — on request;</li>
   <li>delete your account and data (section 12);</li>
   <li>withdraw consent to reading Health Connect and the step sensor — in Health Connect and Android settings;</li>
@@ -319,7 +321,7 @@
 <p>11.2. Send requests to the address in section 15 from the Google account address you used to sign in to the App. We will send a separate email to that address; reply to it to confirm the mailbox is yours. After confirmation, we will respond within 30 days. Without confirmation from the account’s mailbox, we neither disclose nor change any data.</p>
 
 <h2>12. Account deletion</h2>
-<p>You can delete your account and data in the App (Profile → Settings → “Delete account and data”) or by email request. What is deleted immediately, what is kept in anonymized form (for example, your steps in a hike in progress stay with the party as a single total without your name) and how to delete your account without the App are described on the <a href="../delete-account/#en">account deletion page</a>. Deleted data is kept in backups for up to 8 weeks (section 10).</p>
+<p>You can delete your account and data in the App (Profile → Settings → “Delete account and data”) or by email request. What is deleted immediately, what is kept in anonymized form (for example, your steps in a hike in progress stay with the party as a single total without your name) and how to delete your account without the App are described on the <a href="../delete-account/#en">account deletion page</a>. Deleted data is kept in backups for up to 8 weeks (section 10). Your nickname may remain in the Server copy of another player’s data export file made before the deletion — for up to a day and an hour (section 10). A file that player has already received stays with them.</p>
 
 <h2>13. Data protection</h2>
 <ul>
