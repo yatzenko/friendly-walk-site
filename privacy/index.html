@@ -17,12 +17,12 @@
 
 <section id="ru" class="paper">
 <h1>Политика конфиденциальности приложения Friendly Walk</h1>
-<p class="quiet">Редакция от 14 октября 2026 года</p>
+<p class="quiet">Редакция от 15 октября 2026 года</p>
 
 <h2>Главное</h2>
 <ul>
   <li>Мы обрабатываем данные, чтобы считать ваши шаги и показывать их вам, вашим друзьям и участникам вашего отряда.</li>
-  <li>На сервер передаются итоги шагов за сутки, а не поминутные записи. Дистанция, рост и поминутные шаги остаются на устройстве.</li>
+  <li>На сервер передаются итоги шагов за сутки, а не поминутные записи. Для значков на сервер передаются ещё дистанция за сутки и лучший результат по шагам в некоторые часы суток. Рост и поминутные шаги остаются на устройстве.</li>
   <li>Мы не показываем рекламу, не используем сервисы аналитики и не продаём данные. Данные Health Connect не продаются и не используются для рекламы.</li>
   <li>Аккаунт и данные можно удалить в приложении или по электронной почте — см. <a href="../delete-account/">порядок удаления</a>.</li>
 </ul>
@@ -55,19 +55,22 @@
 <p>3.2. <strong>Данные о шагах</strong> — из Health Connect и датчика шагов устройства (разделы 5 и 6):</p>
 <ul>
   <li>итог шагов за каждые сутки — отдельно по источнику (Health Connect, датчик устройства) и по каждому вашему устройству;</li>
-  <li>шаги за каждую дату похода в часовом поясе отряда (вклад в поход).</li>
+  <li>шаги за каждую дату похода в часовом поясе отряда (вклад в поход);</li>
+  <li>дистанция за каждые сутки — из Health Connect, если вы это разрешили, или рассчитанная по шагам и росту; не больше предела правдоподобия;</li>
+  <li>наибольшее число шагов, пройденных в часы из условий значков (сейчас 5:00–8:00, 12:00–14:00 и 21:00–24:00 по времени устройства), — одно число на каждый промежуток, без дат и без шагов по отдельным дням.</li>
 </ul>
 <p>3.3. <strong>Данные, которые создают Приложение и Сервер:</strong></p>
 <ul>
   <li>внутренний номер аккаунта, номер паспорта и дата регистрации (дата выдачи паспорта);</li>
   <li>название часового пояса устройства (например, Europe/Moscow) — по нему определяются границы ваших суток; отряд хранит часовой пояс своего создателя. Часовой пояс указывает на регион, где вы находитесь, поэтому в разделе «Безопасность данных» Google Play он объявлен как приблизительное местоположение;</li>
   <li>рассчитанные Сервером итог суток, серия, опыт и уровень, сумма шагов, шаги лучших суток, полученные значки;</li>
+  <li>события ленты — виза, серия, значок, вступление в отряд, пройденный этап и шаги за дату похода — со временем, когда Сервер их записал;</li>
   <li>дата начала дружбы, время вступления в отряд, время последнего открытия Приложения, пока вы состоите в отряде;</li>
   <li>визы (место, дата, шаги, название отряда) и итоги походов с вкладом каждого участника по дням;</li>
   <li>данные проверки устройства: случайный номер установки, который Приложение создаёт само (это не номер телефона и не аппаратный идентификатор устройства), ключ подписи этой установки, срок действия проверки, время последней отправки, хеш токена Play Integrity и результат проверки (раздел 8);</li>
   <li>служебные записи о попытках ввести номер паспорта или код отряда — для защиты от перебора.</li>
 </ul>
-<p>3.4. <strong>Данные, которые остаются только на устройстве</strong> и на Сервер не передаются: дистанция за сутки, рост, поминутные шаги датчика, записи Health Connect, сохранённые списки друзей, отряда, виз и истории походов.</p>
+<p>3.4. <strong>Данные, которые остаются только на устройстве</strong> и на Сервер не передаются: рост, поминутные шаги датчика, записи Health Connect, сохранённые списки друзей, отряда, виз и истории походов. Если дистанция рассчитана по шагам и росту, по ней и числу шагов можно приблизительно определить длину вашего шага.</p>
 <p>3.5. <strong>Журналы сбоев и диагностика:</strong></p>
 <ul>
   <li>отчёты о сбоях и зависаниях Приложения и технические показатели его работы (модель устройства, версия Android и Приложения, состояние Приложения в момент сбоя) — их собирает Google Play и показывает нам в Play Console, если на устройстве включена отправка диагностики в Google;</li>
@@ -78,8 +81,8 @@
 <h2>4. Цели и основания обработки</h2>
 <ul>
   <li><strong>Вход и аккаунт</strong> (почта, номер аккаунта, ник) — необходимость для предоставления Приложения, которым вы решили пользоваться.</li>
-  <li><strong>Подсчёт и показ шагов, цели, серии, уровня</strong> (данные о шагах, цель, часовой пояс) — необходимость для предоставления Приложения; чтение Health Connect и датчика — на основании вашего согласия, которое вы даёте в системном окне разрешений Android.</li>
-  <li><strong>Друзья, отряды, походы, визы</strong> (ник, уровень, шаги, вклад, время последнего открытия) — необходимость для предоставления социальных функций, которые вы используете.</li>
+  <li><strong>Подсчёт и показ шагов, цели, серии, уровня, значков</strong> (данные о шагах и дистанция, цель, часовой пояс) — необходимость для предоставления Приложения; чтение Health Connect и датчика — на основании вашего согласия, которое вы даёте в системном окне разрешений Android.</li>
+  <li><strong>Друзья, отряды, походы, визы, лента</strong> (ник, уровень, шаги, вклад, время последнего открытия) — необходимость для предоставления социальных функций, которые вы используете.</li>
   <li><strong>Защита от подделки шагов и злоупотреблений</strong> (проверка устройства, Play Integrity, служебные записи о попытках, предел шагов за сутки, технические журналы) — наш законный интерес в честной совместной игре и защите других игроков.</li>
   <li><strong>Поиск и исправление сбоев</strong> (журналы сбоев и диагностика, технические журналы) — наш законный интерес в исправной работе Приложения.</li>
   <li><strong>Ответы на обращения</strong> (адрес почты и переписка) — ваш запрос.</li>
@@ -90,26 +93,26 @@
 <p>5.1. Приложение — шагомер и относится к категории «Активность и фитнес». С вашего разрешения оно читает из Health Connect:</p>
 <ul>
   <li><strong>шаги</strong> — основная мера игры: «Сегодня», история, цель дня, серия, уровень, вклад в поход, отметка «отстаёт от отряда»;</li>
-  <li><strong>дистанцию</strong> — по желанию; используется только на устройстве и на Сервер не передаётся. Без этого разрешения дистанция рассчитывается по шагам и росту;</li>
-  <li><strong>данные в фоновом режиме</strong> — чтобы друзья и отряд видели ваши шаги, даже когда Приложение закрыто. Примерно раз в час, при подключении к сети и не низком заряде, Приложение читает итоги шагов (и дистанцию, если она разрешена) и отправляет итоги шагов на Сервер. Android может откладывать фоновую работу.</li>
+  <li><strong>дистанцию</strong> — по желанию; используется для показа на устройстве и для значков дистанции: дистанция за сутки передаётся на Сервер. Без этого разрешения дистанция рассчитывается по шагам и росту;</li>
+  <li><strong>данные в фоновом режиме</strong> — чтобы друзья и отряд видели ваши шаги, даже когда Приложение закрыто. Примерно раз в час, при подключении к сети и не низком заряде, Приложение читает итоги шагов (и дистанцию, если она разрешена) и отправляет на Сервер итоги шагов, дистанцию за сутки и шаги в часы значков. Android может откладывать фоновую работу.</li>
 </ul>
 <p>5.2. Других данных Health Connect Приложение не читает и ничего в Health Connect не записывает.</p>
 <p>5.3. Шаги читаются начиная с дня регистрации. При входе в ранее созданный аккаунт на новом устройстве Приложение читает Health Connect не глубже 30 суток назад, но на Сервер передаются только шаги с дня регистрации.</p>
-<p>5.4. На Сервер из данных Health Connect передаются только итоги шагов за сутки и вклад в поход по датам.</p>
+<p>5.4. На Сервер из данных Health Connect передаются только итоги шагов за сутки, дистанция за сутки, лучший результат по шагам в часы значков и вклад в поход по датам.</p>
 <p>5.5. Данные Health Connect мы не продаём и не используем для рекламы, в том числе персонализированной; не передаём их рекламным платформам, брокерам данных и перепродавцам информации; не используем для оценки кредитоспособности или в целях страхования. Использование данных, полученных из Health Connect, соответствует политике разрешений Health Connect, включая требования Limited Use.</p>
 <p>5.6. Отозвать доступ можно в любой момент в настройках Health Connect. После отзыва Приложение перестаёт читать данные Health Connect; уже переданные итоги остаются на Сервере до удаления аккаунта.</p>
 
 <h2>6. Датчик шагов устройства</h2>
-<p>С разрешения «Физическая активность» Приложение считает шаги датчиком устройства, пока открыт экран Приложения, — для живого счёта и как запасной источник на устройствах без Health Connect. Поминутные шаги датчика хранятся на устройстве; на Сервер передаётся только итог суток от датчика как отдельный источник. Разрешение можно отозвать в настройках Android.</p>
+<p>С разрешения «Физическая активность» Приложение считает шаги датчиком устройства, пока открыт экран Приложения, — для живого счёта и как запасной источник на устройствах без Health Connect. Поминутные шаги датчика хранятся на устройстве; на Сервер передаются только итог суток от датчика как отдельный источник и шаги в часы значков (3.2). Разрешение можно отозвать в настройках Android.</p>
 
 <h2>7. Кому доступны данные</h2>
 <p>7.1. <strong>Другим игрокам — в объёме социальных функций.</strong></p>
 <ul>
-  <li><strong>Никто из игроков</strong> не видит вашу почту, рост, дистанцию, поминутные шаги и итоги по отдельным источникам и устройствам.</li>
-  <li><strong>Всякий, кому Приложение показывает ваш ник</strong> (кто именно — ниже в этом разделе), видит также ваш уровень и полученные вами значки. Значок показывает, что выполнено его условие: например, что ваша лучшая серия, число виз или друзей не меньше указанного в значке.</li>
-  <li><strong>Друзья</strong> видят ник, уровень и звание, номер паспорта, дату выдачи паспорта, дату начала дружбы, шаги и цель дня за сегодня, текущую и лучшую серию, сумму шагов с дня регистрации, шаги лучших суток (без даты) и визы: место, дату, шаги, название отряда, признак своих правил. Даты друзья видят в своём часовом поясе; сравнивая пояса, можно приблизительно определить час вашей регистрации. После прекращения дружбы бывший друг ваши визы не видит.</li>
+  <li><strong>Никто из игроков</strong> не видит вашу почту, рост, дистанцию, лучшие результаты по часам, поминутные шаги и итоги по отдельным источникам и устройствам.</li>
+  <li><strong>Всякий, кому Приложение показывает ваш ник</strong> (кто именно — ниже в этом разделе), видит также ваш уровень и полученные вами значки. Значок показывает, что выполнено его условие: например, что ваша лучшая серия, число виз или друзей не меньше указанного в значке, что хотя бы однажды вы прошли не меньше указанного числа шагов в определённые часы (рано утром, днём, поздно вечером) по времени вашего устройства или не меньше указанной дистанции за сутки либо с начала игры.</li>
+  <li><strong>Друзья</strong> видят ник, уровень и звание, номер паспорта, дату выдачи паспорта, дату начала дружбы, шаги и цель дня за сегодня, текущую и лучшую серию, сумму шагов с дня регистрации, шаги лучших суток (без даты) и визы: место, дату, шаги, название отряда, признак своих правил. Даты друзья видят в своём часовом поясе; сравнивая пояса, можно приблизительно определить час вашей регистрации. Друзья видят и ленту ваших событий — визы, серии, значки — со временем, когда Сервер их записал. После прекращения дружбы бывший друг ваши визы и ленту не видит.</li>
   <li><strong>Отправитель запроса в друзья</strong> — любой, кому известен ваш номер паспорта, — видит ваш ник и уровень до того, как вы ответите на запрос. Вы видите ник и уровень отправителя.</li>
-  <li><strong>Участники отряда</strong>, в том числе вступившие по коду и не являющиеся вашими друзьями, видят ваш ник и уровень, точное время последнего открытия Приложения («в сети»), отметку «отстаёт от отряда», ваш вклад в поход за всё время и за сегодня, а также открыт ли отряд для друзей создателя и кем. По времени старта и границам дат похода участники могут определить часовой пояс отряда — пояс его создателя. Любой, кому известен код отряда, может вступить в него, пока есть свободные места, и получить те же сведения.</li>
+  <li><strong>Участники отряда</strong>, в том числе вступившие по коду и не являющиеся вашими друзьями, видят ваш ник и уровень, точное время последнего открытия Приложения («в сети»), отметку «отстаёт от отряда», ваш вклад в поход за всё время и за сегодня, а также открыт ли отряд для друзей создателя и кем; в ленте похода — вступление участников, пройденные этапы и шаги участников за дату похода со временем, когда Сервер их записал. Вышедший из отряда ленту похода не видит. По времени старта и границам дат похода участники могут определить часовой пояс отряда — пояс его создателя. Любой, кому известен код отряда, может вступить в него, пока есть свободные места, и получить те же сведения.</li>
   <li><strong>Приглашённый в отряд</strong> видит название отряда, число мест и участников, ник и уровень пригласившего, условия похода (место, режим, срок, цель, время старта) и процент пройденного пути. Приглашение действует, пока существует отряд, в том числе после прекращения дружбы.</li>
   <li><strong>Друзья создателя открытого отряда</strong> видят то же, что приглашённый (ник и уровень — создателя), и могут вступить без приглашения. По времени старта приглашённый и друг создателя могут определить часовой пояс создателя.</li>
   <li><strong>Участники похода на момент его закрытия</strong> получают итог похода: ники, вклад каждого участника по дням и отметку «Каждый день в пути». Каждый из них хранит итог, пока существует его аккаунт.</li>
@@ -130,10 +133,11 @@
 
 <h2>10. Сроки хранения</h2>
 <ul>
-  <li>Профиль (почта, ник, номер паспорта, часовой пояс), друзья и запросы в друзья, итоги суток, цели дня, серия, опыт и уровень, значки, визы, итоги походов, данные проверки устройства — пока существует аккаунт.</li>
+  <li>Профиль (почта, ник, номер паспорта, часовой пояс), друзья и запросы в друзья, итоги суток, цели дня, серия, опыт и уровень, значки, дистанция за сутки и лучшие результаты по часам, визы, итоги походов, данные проверки устройства — пока существует аккаунт.</li>
   <li>Отряд, участие в нём и приглашения — пока существует отряд.</li>
   <li>Ваш вклад в поход по дням — бессрочно, пока существует ваш аккаунт, в том числе после закрытия похода.</li>
   <li>Время последнего открытия Приложения — пока вы состоите в отряде.</li>
+  <li>События ленты — 7 суток с момента записи, затем удаляются в течение суток; события похода — не дольше, чем существует отряд.</li>
   <li>Шаги по отдельным устройствам и источникам — 90 суток, затем остаётся только итог суток.</li>
   <li>Служебные записи о попытках ввести код, о проверках устройства и о выгрузках данных — записи старше суток удаляются при следующей попытке, проверке или выгрузке.</li>
   <li>Копия файла выгрузки данных на Сервере — сутки с момента формирования, затем удаляется в течение часа: повторная выгрузка в эти сутки отдаёт тот же файл, с ограничением числа выгрузок.</li>
@@ -157,7 +161,7 @@
 <p>11.2. Запрос направляйте по адресу из раздела 15 с адреса Google-аккаунта, которым вы входили в Приложение. Мы пришлём отдельное письмо на этот адрес; ответьте на него, чтобы подтвердить, что ящик принадлежит вам. После подтверждения мы ответим в течение 30 дней. Без подтверждения из ящика аккаунта мы данные не раскрываем и не изменяем.</p>
 
 <h2>12. Удаление аккаунта</h2>
-<p>Аккаунт и данные удаляются в Приложении (Профиль → Настройки → «Удалить аккаунт и данные») или по запросу на электронную почту. Что удаляется сразу, что сохраняется в обезличенном виде (например, ваши шаги в идущем походе остаются у отряда одной суммой без вашего имени) и как удалить аккаунт без Приложения, описано на странице <a href="../delete-account/">удаления аккаунта</a>. В резервных копиях удалённые данные хранятся до 8 недель (раздел 10). Ваш ник может оставаться в копии файла выгрузки данных другого игрока на Сервере, сформированной до удаления, — до суток с часом (раздел 10). Файл, уже полученный этим игроком, хранится у него.</p>
+<p>Аккаунт и данные удаляются в Приложении (Профиль → Настройки → «Удалить аккаунт и данные») или по запросу на электронную почту. Что удаляется сразу, что сохраняется в обезличенном виде (например, ваши шаги в идущем походе остаются у отряда одной суммой без вашего имени) и как удалить аккаунт без Приложения, описано на странице <a href="../delete-account/">удаления аккаунта</a>. Ваши события ленты удаляются сразу; отметки пройденных этапов похода, без вашего имени, остаются у отряда. В резервных копиях удалённые данные хранятся до 8 недель (раздел 10). Ваш ник может оставаться в копии файла выгрузки данных другого игрока на Сервере, сформированной до удаления, — до суток с часом (раздел 10). Файл, уже полученный этим игроком, хранится у него.</p>
 
 <h2>13. Защита данных</h2>
 <ul>
@@ -181,12 +185,12 @@
 
 <section id="en" lang="en" class="paper">
 <h1>Friendly Walk privacy policy</h1>
-<p class="quiet">Version of 14 October 2026</p>
+<p class="quiet">Version of 15 October 2026</p>
 
 <h2>Key points</h2>
 <ul>
   <li>We process data to count your steps and show them to you, your friends and the members of your party.</li>
-  <li>Daily step totals go to the server, not minute-by-minute records. Distance, height and per-minute steps stay on the device.</li>
+  <li>Daily step totals go to the server, not minute-by-minute records. For badges, daily distance and your best step count in certain hours of the day also go to the server. Height and per-minute steps stay on the device.</li>
   <li>We show no ads, use no analytics services and don’t sell data. Health Connect data is not sold and is not used for advertising.</li>
   <li>You can delete your account and data in the app or by email — see the <a href="../delete-account/#en">deletion procedure</a>.</li>
 </ul>
@@ -219,19 +223,22 @@
 <p>3.2. <strong>Step data</strong> — from Health Connect and the device’s step sensor (sections 5 and 6):</p>
 <ul>
   <li>the step total for each day — separately for each source (Health Connect, device sensor) and for each of your devices;</li>
-  <li>steps for each hike date in the party’s time zone (hike contribution).</li>
+  <li>steps for each hike date in the party’s time zone (hike contribution);</li>
+  <li>distance for each day — from Health Connect if you allowed it, or estimated from steps and height; no more than the plausibility limit;</li>
+  <li>the largest number of steps walked in the hours named in badge conditions (currently 5:00–8:00, 12:00–14:00 and 21:00–24:00 device time) — one number per period, without dates and without steps for individual days.</li>
 </ul>
 <p>3.3. <strong>Data created by the App and the Server:</strong></p>
 <ul>
   <li>an internal account number, your passport number and sign-up date (passport issue date);</li>
   <li>your device’s time zone name (for example, Europe/Berlin), which sets where your day ends; a party stores its creator’s time zone. A time zone points to the region you are in, so in Google Play’s Data safety section it is declared as approximate location;</li>
   <li>values calculated by the Server: daily total, streak, XP and level, total steps, steps on your best day, badges you have earned;</li>
+  <li>feed events — a visa, a streak, a badge, joining a party, a stage reached and steps for a hike date — with the time the Server recorded them;</li>
   <li>the date a friendship began, when you joined a party, and when you last opened the App while you are in a party;</li>
   <li>visas (place, date, steps, party name) and hike results with each member’s daily contribution;</li>
   <li>device check data: a random install number the App creates itself (not your phone number or a hardware device identifier), this install’s signing key, how long the check is valid, when steps were last sent, a hash of the Play Integrity token and the check result (section 8);</li>
   <li>service records of attempts to enter a passport number or party code — to prevent guessing.</li>
 </ul>
-<p>3.4. <strong>Data that stays on the device only</strong> and is not sent to the Server: daily distance, height, per-minute sensor steps, Health Connect records, saved lists of friends, your party, visas and hike history.</p>
+<p>3.4. <strong>Data that stays on the device only</strong> and is not sent to the Server: height, per-minute sensor steps, Health Connect records, saved lists of friends, your party, visas and hike history. If distance is estimated from steps and height, your approximate step length can be worked out from it and your step count.</p>
 <p>3.5. <strong>Crash logs and diagnostics:</strong></p>
 <ul>
   <li>reports of App crashes and freezes and technical performance data (device model, Android and App version, the App’s state at the moment of the crash) — collected by Google Play and shown to us in Play Console if sending diagnostics to Google is turned on on the device;</li>
@@ -242,8 +249,8 @@
 <h2>4. Purposes and grounds for processing</h2>
 <ul>
   <li><strong>Sign-in and account</strong> (email, account number, nickname) — necessary to provide the App you chose to use.</li>
-  <li><strong>Counting and showing steps, goal, streak, level</strong> (step data, goal, time zone) — necessary to provide the App; reading Health Connect and the sensor is based on your consent, given in the Android permission dialog.</li>
-  <li><strong>Friends, parties, hikes, visas</strong> (nickname, level, steps, contribution, last-opened time) — necessary to provide the social features you use.</li>
+  <li><strong>Counting and showing steps, goal, streak, level, badges</strong> (step data and distance, goal, time zone) — necessary to provide the App; reading Health Connect and the sensor is based on your consent, given in the Android permission dialog.</li>
+  <li><strong>Friends, parties, hikes, visas, feed</strong> (nickname, level, steps, contribution, last-opened time) — necessary to provide the social features you use.</li>
   <li><strong>Protection against faked steps and abuse</strong> (device check, Play Integrity, service records of attempts, the daily step cap, technical logs) — our legitimate interest in fair cooperative play and protecting other players.</li>
   <li><strong>Finding and fixing crashes</strong> (crash logs and diagnostics, technical logs) — our legitimate interest in the App working properly.</li>
   <li><strong>Responding to requests</strong> (email address and correspondence) — your request.</li>
@@ -254,26 +261,26 @@
 <p>5.1. The App is a step counter in the “Activity and fitness” category. With your permission, it reads from Health Connect:</p>
 <ul>
   <li><strong>steps</strong> — the game’s main measure: “Today”, history, daily goal, streak, level, hike contribution and the “behind the party” mark;</li>
-  <li><strong>distance</strong> — optional; used only on the device and not sent to the Server. Without this permission, distance is estimated from steps and height;</li>
-  <li><strong>data in the background</strong> — so friends and your party see your steps even when the App is closed. About once an hour, when connected and the battery isn’t low, the App reads your step totals (and distance, if permitted) and sends the step totals to the Server. Android may delay background work.</li>
+  <li><strong>distance</strong> — optional; used for display on the device and for distance badges: daily distance is sent to the Server. Without this permission, distance is estimated from steps and height;</li>
+  <li><strong>data in the background</strong> — so friends and your party see your steps even when the App is closed. About once an hour, when connected and the battery isn’t low, the App reads your step totals (and distance, if permitted) and sends step totals, daily distance and steps in badge hours to the Server. Android may delay background work.</li>
 </ul>
 <p>5.2. The App reads no other Health Connect data and writes nothing to Health Connect.</p>
 <p>5.3. Steps are read starting from your sign-up day. If you sign in to an existing account on a new device, the App reads Health Connect back no more than 30 days, but only steps from your sign-up day onward are sent to the Server.</p>
-<p>5.4. Of the Health Connect data, only daily step totals and hike contribution by date are sent to the Server.</p>
+<p>5.4. Of the Health Connect data, only daily step totals, daily distance, your best step count in badge hours and hike contribution by date are sent to the Server.</p>
 <p>5.5. We don’t sell Health Connect data or use it for advertising, including personalized advertising; we don’t transfer it to advertising platforms, data brokers or information resellers; and we don’t use it to determine credit-worthiness or for insurance purposes. Use of information received from Health Connect adheres to the Health Connect Permissions policy, including the Limited Use requirements.</p>
 <p>5.6. You can revoke access at any time in Health Connect settings. After that, the App stops reading Health Connect data; totals already sent stay on the Server until the account is deleted.</p>
 
 <h2>6. Device step sensor</h2>
-<p>With the “Physical activity” permission, the App counts steps with the device’s sensor while an App screen is open — for a live count and as a fallback source on devices without Health Connect. Per-minute sensor steps are stored on the device; only the sensor’s daily total is sent to the Server, as a separate source. You can revoke the permission in Android settings.</p>
+<p>With the “Physical activity” permission, the App counts steps with the device’s sensor while an App screen is open — for a live count and as a fallback source on devices without Health Connect. Per-minute sensor steps are stored on the device; only the sensor’s daily total, as a separate source, and steps in badge hours (3.2) are sent to the Server. You can revoke the permission in Android settings.</p>
 
 <h2>7. Who can access data</h2>
 <p>7.1. <strong>Other players — to the extent of social features.</strong></p>
 <ul>
-  <li><strong>No player</strong> sees your email, height, distance, per-minute steps or totals by individual source and device.</li>
-  <li><strong>Anyone the App shows your nickname to</strong> (who exactly is listed below in this section) also sees your level and the badges you have earned. A badge shows that its condition is met: for example, that your best streak or your number of visas or friends is at least the number on the badge.</li>
-  <li><strong>Friends</strong> see your nickname, level and title, passport number, passport issue date, the date your friendship began, today’s steps and daily goal, current and best streak, total steps since sign-up, steps on your best day (without the date) and your visas: place, date, steps, party name and whether custom rules were used. Friends see dates in their own time zone; by comparing time zones, one can roughly work out the hour you signed up. Once a friendship ends, the former friend no longer sees your visas.</li>
+  <li><strong>No player</strong> sees your email, height, distance, best results by hour, per-minute steps or totals by individual source and device.</li>
+  <li><strong>Anyone the App shows your nickname to</strong> (who exactly is listed below in this section) also sees your level and the badges you have earned. A badge shows that its condition is met: for example, that your best streak or your number of visas or friends is at least the number on the badge, that at least once you walked at least the stated number of steps in certain hours (early morning, midday, late evening) by your device’s time, or at least the stated distance in a day or since you started.</li>
+  <li><strong>Friends</strong> see your nickname, level and title, passport number, passport issue date, the date your friendship began, today’s steps and daily goal, current and best streak, total steps since sign-up, steps on your best day (without the date) and your visas: place, date, steps, party name and whether custom rules were used. Friends see dates in their own time zone; by comparing time zones, one can roughly work out the hour you signed up. Friends also see a feed of your events — visas, streaks, badges — with the time the Server recorded them. Once a friendship ends, the former friend no longer sees your visas or your feed.</li>
   <li><strong>The sender of a friend request</strong> — anyone who knows your passport number — sees your nickname and level before you respond. You see the sender’s nickname and level.</li>
-  <li><strong>Party members</strong>, including those who joined by code and aren’t your friends, see your nickname and level, the exact time you last opened the App (“online”), the “behind the party” mark, your hike contribution in total and for today, and whether the party is open to the creator’s friends and by whom. From the hike’s start time and date boundaries, members can tell the party’s time zone — its creator’s time zone. Anyone who knows the party code can join while there are free places and receive the same information.</li>
+  <li><strong>Party members</strong>, including those who joined by code and aren’t your friends, see your nickname and level, the exact time you last opened the App (“online”), the “behind the party” mark, your hike contribution in total and for today, and whether the party is open to the creator’s friends and by whom; in the hike feed — members joining, stages reached and members’ steps for a hike date, with the time the Server recorded them. Someone who has left the party no longer sees the hike feed. From the hike’s start time and date boundaries, members can tell the party’s time zone — its creator’s time zone. Anyone who knows the party code can join while there are free places and receive the same information.</li>
   <li><strong>Someone invited to a party</strong> sees the party name, the number of places and members, the inviter’s nickname and level, the hike settings (place, mode, duration, goal, start time) and the share of the path completed. An invitation remains valid as long as the party exists, including after a friendship ends.</li>
   <li><strong>Friends of an open party’s creator</strong> see the same as an invitee (with the creator’s nickname and level) and can join without an invitation. From the start time, an invitee and a creator’s friend can tell the creator’s time zone.</li>
   <li><strong>Hike members at the moment the hike closes</strong> receive its results: nicknames, each member’s daily contribution and the “Every day on the path” mark. Each of them keeps the results as long as their account exists.</li>
@@ -294,10 +301,11 @@
 
 <h2>10. Retention</h2>
 <ul>
-  <li>Your profile (email, nickname, passport number, time zone), friends and friend requests, daily totals, daily goals, streak, XP and level, badges, visas, hike results and device check data — as long as the account exists.</li>
+  <li>Your profile (email, nickname, passport number, time zone), friends and friend requests, daily totals, daily goals, streak, XP and level, badges, daily distance and best results by hour, visas, hike results and device check data — as long as the account exists.</li>
   <li>A party, its membership and invitations — as long as the party exists.</li>
   <li>Your daily contribution to a hike — indefinitely, as long as your account exists, including after the hike closes.</li>
   <li>When you last opened the App — while you are in a party.</li>
+  <li>Feed events — 7 days from when they were recorded, then deleted within a day; hike events — no longer than the party exists.</li>
   <li>Steps by individual device and source — 90 days, after which only the daily total remains.</li>
   <li>Service records of code attempts, device checks and data exports — records older than a day are deleted at the next attempt, check or export.</li>
   <li>A copy of your data export file on the Server — for a day after it is made, then deleted within an hour: exporting again within that day returns the same file, with a limit on the number of exports.</li>
@@ -321,7 +329,7 @@
 <p>11.2. Send requests to the address in section 15 from the Google account address you used to sign in to the App. We will send a separate email to that address; reply to it to confirm the mailbox is yours. After confirmation, we will respond within 30 days. Without confirmation from the account’s mailbox, we neither disclose nor change any data.</p>
 
 <h2>12. Account deletion</h2>
-<p>You can delete your account and data in the App (Profile → Settings → “Delete account and data”) or by email request. What is deleted immediately, what is kept in anonymized form (for example, your steps in a hike in progress stay with the party as a single total without your name) and how to delete your account without the App are described on the <a href="../delete-account/#en">account deletion page</a>. Deleted data is kept in backups for up to 8 weeks (section 10). Your nickname may remain in the Server copy of another player’s data export file made before the deletion — for up to a day and an hour (section 10). A file that player has already received stays with them.</p>
+<p>You can delete your account and data in the App (Profile → Settings → “Delete account and data”) or by email request. What is deleted immediately, what is kept in anonymized form (for example, your steps in a hike in progress stay with the party as a single total without your name) and how to delete your account without the App are described on the <a href="../delete-account/#en">account deletion page</a>. Your feed events are deleted immediately; marks of hike stages reached, without your name, stay with the party. Deleted data is kept in backups for up to 8 weeks (section 10). Your nickname may remain in the Server copy of another player’s data export file made before the deletion — for up to a day and an hour (section 10). A file that player has already received stays with them.</p>
 
 <h2>13. Data protection</h2>
 <ul>
