@@ -17,7 +17,7 @@
 
 <section id="ru" class="paper">
 <h1>Friendly Walk: удаление аккаунта и данных</h1>
-<p class="quiet">Редакция от 16 октября 2026 года</p>
+<p class="quiet">Редакция от 29 октября 2026 года</p>
 
 <h2>В приложении</h2>
 <ol>
@@ -37,9 +37,10 @@
   <li>имя, номер паспорта, дата «путник с», уровень;</li>
   <li>друзья и запросы в друзья;</li>
   <li>участие в отрядах и приглашения;</li>
+  <li>запросы на вступление в отряды, которые вы отправили, и запросы в отряд, который вы создали, если они ещё ждут вашего ответа;</li>
   <li>визы и ваша история походов;</li>
   <li>шаги по дням, цели дня, часовой пояс, вклад в походы, отметки проверки устройства;</li>
-  <li>на телефоне, где вы удалили аккаунт, — все данные приложения: шаги, цели, рост, сохранённые списки.</li>
+  <li>на телефоне, где вы удалили аккаунт: шаги, цели, рост, сохранённые списки и все остальные данные приложения, кроме настроек и служебных ключей этой установки.</li>
 </ul>
 <p>Удалённый аккаунт мы не восстанавливаем. В резервных копиях базы данных удалённые данные хранятся до 8 недель и удаляются вместе с копией.</p>
 
@@ -47,8 +48,9 @@
 <ul>
   <li>Ваши шаги в походах, которые ещё идут, остаются у отряда одной суммой «Ушли из отряда», без вашего имени, чтобы прогресс отряда не упал. Если в отряде вас было двое, эта сумма — ваши шаги.</li>
   <li>На сервере в итогах завершённых походов остаётся общее число шагов отряда, без вашего имени.</li>
-  <li>Если в отряде, который вы создали, остались участники, он продолжает жить без создателя: его название и часовой пояс остаются; если вы были в нём последним — отряд удаляется. Название отряда, которое вы дали, остаётся и в итогах его походов, и в визах напарников.</li>
+  <li>Если в отряде, который вы создали, остались участники, он продолжает жить без создателя: его название и часовой пояс остаются; если вы были в нём последним — отряд удаляется. Название отряда, которое вы дали, остаётся и в итогах его походов, и в визах напарников. Запросы на вступление в такой отряд, которые вы приняли или отклонили, и отозванные запросы, в том числе отозванные из-за вашего приглашения, остаются у него без вашего имени, пока отряд существует.</li>
   <li>На телефонах друзей и напарников ваше имя и итоги видны, пока их приложение не обновит списки. Это касается и истории походов: при её следующем обновлении ваше имя и шаги по дням из неё уходят, а ваши шаги остаются в общем числе шагов отряда, без вашего имени.</li>
+  <li>На телефоне, где вы удалили аккаунт, остаются настройки и служебные ключи этой установки: выбранный язык, настройка «Движение сцены», отметка о том, какую редакцию политики вы уже видели, ключ подписи установки и ключ шифрования сессии. Данных о вас в них нет. Если стереть данные на телефоне сразу не удалось, приложение повторит это при следующем входе в аккаунт.</li>
   <li>Данные в Health Connect остаются на вашем телефоне: это ваши данные, приложение их не удаляет. Разрешения приложения в Health Connect и вход через Google в настройках аккаунта Google (Безопасность → Ваши подключения к сторонним приложениям и сервисам) отключаете вы сами.</li>
   <li>Если вы входили в Friendly Walk на другом телефоне, там вход перестанет работать в течение часа, но данные приложения на нём сотрите сами: удалите приложение или очистите его данные.</li>
   <li>Технические журналы запросов у хостинга (Supabase) хранятся до 1 суток на нашем тарифе; при смене тарифа срок может измениться, и мы обновим эту страницу.</li>
@@ -62,7 +64,7 @@
 
 <section id="en" lang="en" class="paper">
 <h1>Friendly Walk: deleting your account and data</h1>
-<p class="quiet">Version of 16 October 2026</p>
+<p class="quiet">Version of 29 October 2026</p>
 
 <h2>In the app</h2>
 <ol>
@@ -82,9 +84,10 @@
   <li>your name, passport number, “traveler since” date and level;</li>
   <li>friends and friend requests;</li>
   <li>party memberships and invitations;</li>
+  <li>requests you sent to join parties, and requests to join a party you created that are still waiting for your answer;</li>
   <li>visas and your hike history;</li>
   <li>daily steps, daily goals, time zone, hike contributions and device check records;</li>
-  <li>on the phone where you deleted the account — all app data: steps, goals, height and saved lists.</li>
+  <li>on the phone where you deleted the account — steps, goals, height, saved lists and all other app data except the settings and service keys of this install.</li>
 </ul>
 <p>We don’t restore deleted accounts. Deleted data stays in database backups for up to 8 weeks and is deleted along with the backup.</p>
 
@@ -92,8 +95,9 @@
 <ul>
   <li>Your steps in hikes that are still in progress stay with the party as a single “Left the party” total, without your name, so the party’s progress doesn’t drop. If the party was just the two of you, that total is your steps.</li>
   <li>On the server, the results of finished hikes keep the party’s total step count, without your name.</li>
-  <li>If a party you created still has members, it carries on without its creator: its name and time zone stay; if you were its last member, the party is deleted. A party name you gave also stays in the results of its hikes and in your party members’ visas.</li>
+  <li>If a party you created still has members, it carries on without its creator: its name and time zone stay; if you were its last member, the party is deleted. A party name you gave also stays in the results of its hikes and in your party members’ visas. Requests to join such a party that you accepted or declined, and withdrawn requests, including those withdrawn because you invited the person, stay with it without your name for as long as the party exists.</li>
   <li>On your friends’ and party members’ phones, your name and totals stay visible until their app refreshes its lists. That includes hike history: on its next refresh your name and daily steps leave it, and your steps stay in the party’s total step count, without your name.</li>
+  <li>On the phone where you deleted the account, the settings and service keys of this install remain: the chosen language, the “Scene motion” setting, the mark of which version of the policy you have already seen, this install’s signing key and the session encryption key. They contain no data about you. If the data on the phone could not be erased right away, the app will try again at the next sign-in.</li>
   <li>Health Connect data stays on your phone: it’s your data, and the app doesn’t delete it. You revoke the app’s Health Connect permissions and its Google sign-in access yourself (Google Account → Security → Your connections to third-party apps &amp; services).</li>
   <li>If you signed in to Friendly Walk on another phone, the sign-in there stops working within an hour, but erase the app data on it yourself: uninstall the app or clear its data.</li>
   <li>Our hosting provider (Supabase) keeps technical request logs for up to 1 day on our plan; if the plan changes, this period may change and we will update this page.</li>
